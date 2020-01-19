@@ -1,0 +1,32 @@
+{
+  "name": "twitch-panel-generator",
+  "scripts": {
+    "build": "parcel build app/index.html",
+    "start": "parcel app/index.html"
+  },
+  "postcss": {
+    "modules": true,
+    "plugins": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaffity/twitch-panel-generator.git"
+  },
+  "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaffity/twitch-panel-generator/issues"
+  },
+  "homepage": "https://chaff.land/twitch-panel-generator",
+  "dependencies": {
+    "@emphori/fui": "^0.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.26",
+    "postcss-autoreset": "^2.0.2",
+    "postcss-modules": "^1.5.0",
+    "typescript": "^3.7.5"
+  },
+  "private": true
+}
